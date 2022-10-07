@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/Logo.png';
+import logo3 from '../assets/logo3.svg';
 import { UilLinkedin } from '@iconscout/react-unicons'
 import { UilGithub } from '@iconscout/react-unicons'
 import { UilFile } from '@iconscout/react-unicons'
@@ -9,7 +10,7 @@ import { UilFile } from '@iconscout/react-unicons'
 import {useEffect, useState} from "react";
 
 
-function NavBar() {
+export const NavBar =() => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScroll] = useState('false');
 
@@ -36,7 +37,7 @@ function NavBar() {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
           <Container>
-            <Navbar.Brand href="#home"><img src={logo} alt="Logo"/></Navbar.Brand>
+            <Navbar.Brand href="#home"><img src={logo3} alt="Logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>
             </Navbar.Toggle>
@@ -59,5 +60,3 @@ function NavBar() {
         </Navbar>
       );
 }
-
-export default NavBar

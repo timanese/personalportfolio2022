@@ -46,6 +46,45 @@ h5 {
   padding: 0;
   line-height: normal;
 }
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+p.success {
+	color: green;
+}
+
+p.danger {
+	color: red;
+}
 
 /************ Navbar Css ************/
 nav.navbar {
@@ -63,6 +102,10 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
   width: 9%;
 }
+
+/* nav.navbar a.navbar-brand img{
+  width: 
+} */
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
