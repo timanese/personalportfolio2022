@@ -2,11 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/Logo.png';
-import linkedinLogo from '../assets/nav-icon1.svg';
-import githubLogo from '../assets/nav-icon2.svg';
-import EmailLogo from '../assets/nav-icon3.svg';
-
 import { UilLinkedin } from '@iconscout/react-unicons'
+import { UilGithub } from '@iconscout/react-unicons'
+import { UilFile } from '@iconscout/react-unicons'
 
 import {useEffect, useState} from "react";
 
@@ -50,9 +48,9 @@ function NavBar() {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                    <a href='#'><img src={''} alt = ""/></a>
-                    <a href='#'><img src={''} alt = ""/></a>
-                    <a href='#'><img src={''} alt = ""/></a>
+                    <a href='#'><img src={UilLinkedin} alt = "Linkedin Logo"/></a>
+                    <a href='#'><img src={UilGithub} alt = "Github Logo"/></a>
+                    <a href='#'><img src={UilFile} alt = "Resume Logo"/></a>
                 </div>
                 <button className="vvd" onClick={() => console.log('connect')}> <span>Let's Connect</span></button>
               </span>
