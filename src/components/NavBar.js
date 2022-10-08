@@ -52,8 +52,6 @@ export const NavBar =() => {
                     <a href='#'><UilLinkedin className={"navbar-logo"}/></a>
                     <a href='#'><UilGithub className={"navbar-logo"}/></a>
                     <a href='#'><UilFile className={"navbar-logo"}/></a>
-
-                <a href='#'><img src={logo3} alt="Logo"/></a>
                 </div>
                 <button className="vvd" onClick={() => console.log('connect')}> <span>Let's Connect</span></button>
               </span>
