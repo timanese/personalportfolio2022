@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaBeer } from 'react-icons/fa';
-import colorSharp from "../assets/color-sharp.png";
+import colorSharp from "../assets/color-sharp2.png";
 
 export const Skills = () => {
   const responsive = {
