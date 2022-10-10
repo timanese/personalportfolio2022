@@ -4,7 +4,7 @@ import React from "react";
 import { UilArrowCircleRight } from "@iconscout/react-unicons";
 import BackgroundAnimation from "./BannerAnimation";
 import dTim from "../assets/3dTim.png";
- 
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -69,7 +69,7 @@ export const Banner = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={dTim} alt="header img"/>
+            <img src={dTim} alt="header img" />
             {/* <BackgroundAnimation className={"animation"}></BackgroundAnimation> */}
           </Col>
         </Row>

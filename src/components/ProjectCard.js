@@ -1,4 +1,5 @@
-import { Col } from "react-bootstrap";
+import { Col, Button, Row } from "react-bootstrap";
+import { UilGithub } from "@iconscout/react-unicons";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
@@ -8,8 +9,14 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
+          <Col>
+            <Button>
+              <span>Link to Github</span>
+              <UilGithub></UilGithub>
+            </Button>
+          </Col>
         </div>
       </div>
     </Col>
-  )
-}
+  );
+};
