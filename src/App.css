@@ -642,7 +642,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-/* Experience Section  */
+/************ Experience CSS ************/
 .experience {
   padding: 80px 0;
   position: relative;
@@ -656,7 +656,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   text-align: center;
 }
-.project p {
+.experience p {
   color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -665,6 +665,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
+/************ Timeline Css ************/
+.vertical-timeline-element-title {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+.vertical-timeline-elmenet-subtitle{
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+.tasking-items{
+  color: #000;
+  margin-top: 8px;
+  padding: 0;
+  line-height: normal;
+  text-align: left;
+}
+/* .tasking-list{
+  list-style-type: circle;
+} */
+
 
 .App {
   text-align: center;

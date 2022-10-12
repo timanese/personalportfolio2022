@@ -2,7 +2,7 @@ let TimelineData = [
     {
         id: 1,
         Company: "University of Central Florida",
-        title: "Lockheed Martin College Work Experience (UCF CWEP)",
+        title: "Lockheed Martin College Work Experience",
         location: "Orlando, FL",
         tasking: [
             "Developed and maintained platform integration C++ code used to incorporate various critical services and programs.",
@@ -22,12 +22,12 @@ let TimelineData = [
             "Coordinated with other directors and officers to plan meetings, workshops, events, and Knighthack annual hackathon."
         ],
         date: "August 2022 to Present",
-        icon: "work",
+        icon: "school",
     },
 
     {
         id: 3,
-        Company: "Northrop Grumman (Space System Sector)",
+        Company: "Northrop Grumman (Space System)",
         title: "Software Engineering Intern",
         location: "Roy, Utah",
         tasking: [
@@ -40,7 +40,7 @@ let TimelineData = [
 
     {
         id: 4,
-        Company: "Northrop Grumman (Aeronautics Systems Sector)",
+        Company: "Northrop Grumman (Aeronautics Systems)",
         title: "Software Engineering Intern",
         location: "Melbourne, FL",
         tasking: [
