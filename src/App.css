@@ -671,15 +671,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #000;
   margin: 0;
   padding: 0;
+  text-align: left;
   line-height: normal;
 }
 .vertical-timeline-elmenet-subtitle{
   color: #000;
   margin: 0;
   padding: 0;
+  text-align: left;
   line-height: normal;
 }
 
+.vertical-timeline-element-content {
+  box-shadow: 0 0.0.25em 0.8em 0 black;
+  padding: 2em 3em !important;
+}
+
+
+@media only screen and (max-width: 1170px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: black;
+    margin-top: 1.5em;
+  }
+}
 .tasking-items{
   color: #000;
   margin-top: 8px;
