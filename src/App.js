@@ -3,11 +3,12 @@ import React from "react";
 import { NavBar } from "../src/components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
-import {Projects} from "./components/Projects"
+import { Projects } from "./components/Projects";
 import { Experience } from "./components/Experience";
-import { Contact } from "./components/Contact"; 
+import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Timeline } from "./components/Timeline";
+import { WhatsNew } from "./components/WhatsNew";
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Projects/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
+      <Projects />
+      <Experience />
+      <WhatsNew />
+      <Contact />
+      <Footer />
     </div>
   );
 }
