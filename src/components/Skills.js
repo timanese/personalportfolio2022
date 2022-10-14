@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from "react-icons/fa";
 import colorSharp from "../assets/color-sharp2.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -47,19 +47,19 @@ export const Skills = () => {
               >
                 <div className="item">
                   {/* <img src={} alt="img"/> */}
-                  <FaBeer size={60} className="skill-logos"/>
+                  <FaBeer size={60} className="skill-logos" />
                   <h5> Web Development</h5>
                 </div>
                 <div className="item">
-                <FaBeer size={60} className="skill-logos"/>
+                  <FaBeer size={60} className="skill-logos" />
                   <h5> Brand Identify</h5>
                 </div>
                 <div className="item">
-                <FaBeer size={60} className="skill-logos" />
+                  <FaBeer size={60} className="skill-logos" />
                   <h5> Web Development</h5>
                 </div>
                 <div className="item">
-                <FaBeer size={60} className="skill-logos"/>
+                  <FaBeer size={60} className="skill-logos" />
                   <h5> Web Development</h5>
                 </div>
               </Carousel>
@@ -67,7 +67,11 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp}/>
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="background-img"
+      />
     </section>
   );
 };

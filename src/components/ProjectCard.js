@@ -14,6 +14,10 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
               <span>Link to Github</span>
               <UilGithub></UilGithub>
             </Button>
+            <Button>
+              <span>Link to Website</span>
+              <UilGithub></UilGithub>
+            </Button>
           </Col>
         </div>
       </div>
