@@ -2,41 +2,41 @@ import React from "react";
 import { Row, Col, Container, Nav, Tab, Button } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp from "../assets/color-sharp2.png";
-import projImg1 from "../assets/project-img1.png";
-import projImg2 from "../assets/project-img2.png";
-import projImg3 from "../assets/project-img3.png";
+import gasupImg from "../assets/gasup-project.jpeg";
+import featherImg from "../assets/feather-logo.png";
+import myshImg from "../assets/mysh-project.png";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "GasUp",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: gasupImg,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: featherImg,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: myshImg,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: gasupImg,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: featherImg,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: myshImg,
     },
   ];
   return (

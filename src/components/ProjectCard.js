@@ -1,5 +1,6 @@
 import { Col, Button, Row } from "react-bootstrap";
 import { UilGithub } from "@iconscout/react-unicons";
+import { UilDesktop } from "@iconscout/react-unicons";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
@@ -12,11 +13,11 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           <Col>
             <Button>
               <span>Link to Github</span>
-              <UilGithub></UilGithub>
+              <UilGithub />
             </Button>
             <Button>
               <span>Link to Website</span>
-              <UilGithub></UilGithub>
+              <UilDesktop />
             </Button>
           </Col>
         </div>

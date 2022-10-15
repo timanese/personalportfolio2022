@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Timeline } from "./Timeline";
 export const Experience = () => {
   return (
-    <section className="whats-new" id="whats-new">
+    <section className="experience" id="experience">
       <Container>
         <Row>
           <Col>

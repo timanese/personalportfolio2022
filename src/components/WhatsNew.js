@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 
 export const WhatsNew = () => {
   return (
-    <section className="experience" id="experience">
+    <section className="whats-new" id="whats-new">
       <Container>
         <Row>
           <Col>
