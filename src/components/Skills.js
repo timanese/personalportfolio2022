@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { FaBeer } from "react-icons/fa";
+import { DiReact, DiAngularSimple, DiJavascript1, DiPython, DiJava } from "react-icons/di";
+import { SiCplusplus, SiFirebase } from "react-icons/si";
 import colorSharp from "../assets/color-sharp2.png";
 
 export const Skills = () => {
@@ -45,20 +46,32 @@ export const Skills = () => {
               >
                 <div className="item">
                   {/* <img src={} alt="img"/> */}
-                  <FaBeer size={60} className="skill-logos" />
-                  <h5> Web Development</h5>
+                  <DiReact size={60} className="skill-logos" />
+                  <h5>React</h5>
                 </div>
                 <div className="item">
-                  <FaBeer size={60} className="skill-logos" />
-                  <h5> Brand Identify</h5>
+                  <DiAngularSimple size={60} className="skill-logos" />
+                  <h5>Angular</h5>
                 </div>
                 <div className="item">
-                  <FaBeer size={60} className="skill-logos" />
-                  <h5> Web Development</h5>
+                  <DiJavascript1 size={60} className="skill-logos" />
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <FaBeer size={60} className="skill-logos" />
-                  <h5> Web Development</h5>
+                  <DiPython size={60} className="skill-logos" />
+                  <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <DiJava size={60} className="skill-logos" />
+                  <h5>Java</h5>
+                </div>
+                <div className="item">
+                  <SiCplusplus size={60} className="skill-logos" />
+                  <h5>C++</h5>
+                </div>
+                <div className="item">
+                  <SiFirebase size={60} className="skill-logos" />
+                  <h5>FireBase</h5>
                 </div>
               </Carousel>
             </div>
