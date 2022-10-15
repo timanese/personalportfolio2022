@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Timeline } from "./Timeline";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
+
 export const Experience = () => {
   return (
     <section className="experience" id="experience">
