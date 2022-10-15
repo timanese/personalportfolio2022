@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import TrackVisibility from 'react-on-screen';
+import 'animate.css';
 
 export const WhatsNew = () => {
   return (
@@ -9,8 +11,13 @@ export const WhatsNew = () => {
       <Container>
         <Row>
           <Col>
+          <TrackVisibility>
+            {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__tada" : ""}>
             <h2>Whats New</h2>
             <p>Keep up with what Ive been doing recently!</p>
+            </div>}
+            </TrackVisibility>
             <iframe
               src="https://www.linkedin.com/embed/feed/update/urn:li:share:6980515631137701888"
               height="701"

@@ -37,7 +37,7 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                All my skills I have utilized and learned throughout the years.
+                Skills I have utilized and learned throughout the years.
               </p>
               <Carousel
                 responsive={responsive}

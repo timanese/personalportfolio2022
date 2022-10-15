@@ -6,6 +6,8 @@ import gasupImg from "../assets/gasup-project.png";
 import featherImg from "../assets/feather-project.png";
 import myshImg from "../assets/mysh-project.png";
 import dynastygym from "../assets/dynastygym-project.png";
+import TrackVisibility from "react-on-screen";
+import 'animate.css';
 
 export const Projects = () => {
   const projects = [
@@ -43,8 +45,13 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
+          <TrackVisibility>
+          {({ isVisible }) =>
+          <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
             <h2>Projects</h2>
             <p>Personal projects I have done through self intrest, hackathons, and clubs.</p>
+            </div>}
+            </TrackVisibility>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

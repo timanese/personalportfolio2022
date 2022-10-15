@@ -61,6 +61,17 @@ export const NavBar = () => {
               Skills
             </Nav.Link>
             <Nav.Link
+              href="#experience"
+              className={
+                activeLink === "experience"
+                  ? "active navbar-link"
+                  : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("experience")}
+            >
+              Experiences
+            </Nav.Link>
+            <Nav.Link
               href="#project"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
@@ -80,17 +91,6 @@ export const NavBar = () => {
             >
               Whats New
             </Nav.Link>
-            <Nav.Link
-              href="#experience"
-              className={
-                activeLink === "experience"
-                  ? "active navbar-link"
-                  : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("experience")}
-            >
-              Experiences
-            </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
@@ -104,7 +104,7 @@ export const NavBar = () => {
                 <UilFile className={"navbar-logo"} />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            <button className="vvd" onClick={() => window.open('https://www.linkedin.com/in/tim-yang-49258b18b/', '_blank')}>
               {" "}
               <span>Let's Connect</span>
             </button>
