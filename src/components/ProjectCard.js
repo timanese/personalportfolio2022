@@ -11,14 +11,14 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           <h4>{title}</h4>
           <span>{description}</span>
           <Col>
-            <Button>
-              <span>Link to Github</span>
+            <button class="button-34" role="button">
+              <span>Link to Github  </span>
               <UilGithub />
-            </Button>
-            <Button>
-              <span>Link to Website</span>
+            </button>
+            <button class="button-34" role="button">
+              <span>Link to Website  </span>
               <UilDesktop />
-            </Button>
+            </button>
           </Col>
         </div>
       </div>

@@ -1,7 +1,7 @@
 let TimelineData = [
     {
         id: 1,
-        Company: "University of Central Florida",
+        company: "University of Central Florida",
         title: "Lockheed Martin College Work Experience",
         location: "Orlando, FL",
         tasking: [
@@ -17,7 +17,7 @@ let TimelineData = [
     },
     {
         id: 2,
-        Company: "KnightHacks",
+        company: "KnightHacks",
         title: "Projects Director",
         location: "Orlando, FL",
         tasking: [
@@ -31,7 +31,7 @@ let TimelineData = [
 
     {
         id: 3,
-        Company: "Northrop Grumman (Space System)",
+        company: "Northrop Grumman (Space System)",
         title: "Software Engineering Intern",
         location: "Roy, Utah",
         tasking: [
@@ -45,7 +45,7 @@ let TimelineData = [
 
     {
         id: 4,
-        Company: "Northrop Grumman (Aeronautics Systems)",
+        company: "Northrop Grumman (Aeronautics Systems)",
         title: "Software Engineering Intern",
         location: "Melbourne, FL",
         tasking: [

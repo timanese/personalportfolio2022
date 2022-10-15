@@ -11,22 +11,22 @@ export const Projects = () => {
   const projects = [
     {
       title: "GasUp",
-      description: "Design & Development",
+      description: "Attended SHellahcks 2022 Hackathon and won the challendge: Best sustainability Hack by Avanade. GasUp is a mobile application that encuroages carpooling by allowing users to easily split the cost of gas for a a given trip",
       imgUrl: gasupImg,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Feather - Interactive Diary",
+      description: "Hybrid social media app using Ionic Angular framework, where users can share, collaborate, and discuss entries with others.",
       imgUrl: featherImg,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Shell Program",
+      description: "Created a functional shell that performed system calls, handled process creation and signals. Code in C.",
       imgUrl: myshImg,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Dynasty Gym",
+      description: "A gym website made with bootstrap.",
       imgUrl: dynastygym,
     },
   ];
@@ -44,13 +44,13 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  <Nav.Link eventKey="first">2022</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  <Nav.Link eventKey="second">2021</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                  <Nav.Link eventKey="third">2023</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content id="slideInUp">
@@ -63,18 +63,12 @@ export const Projects = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque quam, quod neque provident velit, rem explicabo
-                    excepturi id illo molestiae blanditiis, eligendi dicta
-                    officiis asperiores delectus quasi inventore debitis quo.
+                    Adding soon ... 
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque quam, quod neque provident velit, rem explicabo
-                    excepturi id illo molestiae blanditiis, eligendi dicta
-                    officiis asperiores delectus quasi inventore debitis quo.
+                    Adding soon ... 
                   </p>
                 </Tab.Pane>
               </Tab.Content>
