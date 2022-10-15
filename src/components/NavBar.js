@@ -94,13 +94,13 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/tim-yang-49258b18b/" target="_blank" rel="noreferrer">
                 <UilLinkedin className={"navbar-logo"} />
               </a>
-              <a href="#">
+              <a href="https://github.com/timanese" target="_blank" rel="noreferrer">
                 <UilGithub className={"navbar-logo"} />
               </a>
-              <a href="#">
+              <a href="../assets/YangTimResume2022.pdf" target="_blank" download>
                 <UilFile className={"navbar-logo"} />
               </a>
             </div>

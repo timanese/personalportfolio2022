@@ -1,9 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import dTim from "../assets/contactme3dTim.png";
 import planet from "../assets/planetObject.png";
-import rocket from "../assets/rocket.png"
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -35,7 +33,7 @@ export const Contact = () => {
       setButtonText("Send");
       let result = await response.json();
       setFormDetails(formInitialDetails);
-      if (result.code == 200) {
+      if (result.code === 200) {
         setStatus({ succes: true, message: 'Message sent successfully'});
       } else {
         setStatus({ succes: false, message: 'Something went wrong, please try again later.'});

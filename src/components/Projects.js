@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Nav, Tab, Button } from "react-bootstrap";
+import { Row, Col, Container, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp from "../assets/color-sharp2.png";
 import gasupImg from "../assets/gasup-project.png";
