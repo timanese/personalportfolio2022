@@ -2,9 +2,10 @@ import React from "react";
 import { Row, Col, Container, Nav, Tab, Button } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp from "../assets/color-sharp2.png";
-import gasupImg from "../assets/gasup-project.jpeg";
-import featherImg from "../assets/feather-logo.png";
+import gasupImg from "../assets/gasup-project.png";
+import featherImg from "../assets/feather-project.png";
 import myshImg from "../assets/mysh-project.png";
+import dynastygym from "../assets/dynastygym-project.png";
 
 export const Projects = () => {
   const projects = [
@@ -26,17 +27,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: gasupImg,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: featherImg,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: myshImg,
+      imgUrl: dynastygym,
     },
   ];
   return (

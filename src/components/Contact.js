@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import dTim from "../assets/contactme3dTim.png";
+import planet from "../assets/planetObject.png";
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -50,7 +51,7 @@ export const Contact = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <img src={dTim} alt="contact us"></img>
+                        <img src={planet} alt="contact us"></img>
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
