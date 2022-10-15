@@ -13,21 +13,29 @@ export const Projects = () => {
       title: "GasUp",
       description: "Attended SHellahcks 2022 Hackathon and won the challendge: Best sustainability Hack by Avanade. GasUp is a mobile application that encuroages carpooling by allowing users to easily split the cost of gas for a a given trip",
       imgUrl: gasupImg,
+      githubUrl: "https://github.com/ryPattillo/GasUp",
+      websiteUrl: "https://devpost.com/software/gasup",
     },
     {
       title: "Feather - Interactive Diary",
       description: "Hybrid social media app using Ionic Angular framework, where users can share, collaborate, and discuss entries with others.",
       imgUrl: featherImg,
+      githubUrl: "https://github.com/timanese/feather-app",
+      websiteUrl: "https://github.com/timanese/feather-app",
     },
     {
       title: "Shell Program",
       description: "Created a functional shell that performed system calls, handled process creation and signals. Code in C.",
       imgUrl: myshImg,
+      githubUrl: "https://github.com/timanese/feather-app",
+      websiteUrl: "https://github.com/timanese/feather-app"
     },
     {
       title: "Dynasty Gym",
       description: "A gym website made with bootstrap.",
       imgUrl: dynastygym,
+      githubUrl: "https://github.com/timanese/dynasty-gym",
+      websiteUrl: "http://www.eustis.eecs.ucf.edu/~Yang/",
     },
   ];
   return (
@@ -36,7 +44,7 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing</p>
+            <p>Personal projects I have done through self intrest, hackathons, and clubs.</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

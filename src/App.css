@@ -507,15 +507,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
   outline: 0 solid transparent;
   padding: 8px 18px;
+  margin: 10px;
+  display: inline-block;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   width: fit-content;
   word-break: break-word;
   border: 0;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 40px;
+  text-decoration: none;
 }
 
 /************ Projects Css ************/

@@ -8,7 +8,7 @@ export const Experience = () => {
         <Row>
           <Col>
             <h2>Experience</h2>
-            <p>Oppurtunites I've had throughout my career</p>
+            <p>Oppurtunites I've had throughout my career.</p>
             <Timeline />
           </Col>
         </Row>

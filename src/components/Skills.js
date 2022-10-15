@@ -36,9 +36,7 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                lorem ipsum is simply dummy text of the printing and typesetting
-                industy. <br></br> lorem ipsum is simply dummy text of the
-                printing and typesetting industy.
+                All my skills I have utilized and learned throughout the years.
               </p>
               <Carousel
                 responsive={responsive}
