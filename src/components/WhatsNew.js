@@ -17,14 +17,17 @@ export const WhatsNew = () => {
             <p>Keep up with what Ive been doing recently!</p>
             </div>}
             </TrackVisibility>
+            <div className="container">
             <iframe
               src="https://www.linkedin.com/embed/feed/update/urn:li:share:6980515631137701888"
               height="701"
-              width="504"
+              width="75%"
               frameborder="0"
               allowfullscreen=""
               title="Embedded post"
+              className="responsive-iframe"
             ></iframe>
+            </div>
           </Col>
         </Row>
       </Container>

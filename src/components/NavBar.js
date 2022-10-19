@@ -100,7 +100,7 @@ export const NavBar = () => {
               <a href="https://github.com/timanese" target="_blank" rel="noreferrer">
                 <UilGithub className={"navbar-logo"} />
               </a>
-              <a href="../assets/YangTimResume2022.pdf" target="_blank" download>
+              <a href="https://drive.google.com/file/d/1F_wGS1DVr49e9FYTZIRqsU2bAt0IEXuz/view?usp=sharing" target="_blank" rel="noreferrer">
                 <UilFile className={"navbar-logo"} />
               </a>
             </div>

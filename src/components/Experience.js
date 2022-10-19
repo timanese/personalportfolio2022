@@ -12,7 +12,7 @@ export const Experience = () => {
           <Col>
           <TrackVisibility>
             {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__wobble" : ""}>
+              <div className={isVisible ? "animate__animated animate__headShake" : ""}>
             <h2>Experience</h2>
             <p>Oppurtunites I've had throughout my career.</p>
             </div>}
