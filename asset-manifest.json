@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personalportfolio2022/static/css/main.9c04350b.css",
-    "main.js": "/personalportfolio2022/static/js/main.dbe3ee09.js",
+    "main.js": "/personalportfolio2022/static/js/main.bb1e88d6.js",
     "static/js/787.d5360f6f.chunk.js": "/personalportfolio2022/static/js/787.d5360f6f.chunk.js",
     "static/media/3d-tim-peace.png": "/personalportfolio2022/static/media/3d-tim-peace.a68a6fbae6311eac7c91.png",
     "static/media/color-sharp2.png": "/personalportfolio2022/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -20,11 +20,11 @@
     "static/media/revicons.woff": "/personalportfolio2022/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/personalportfolio2022/index.html",
     "main.9c04350b.css.map": "/personalportfolio2022/static/css/main.9c04350b.css.map",
-    "main.dbe3ee09.js.map": "/personalportfolio2022/static/js/main.dbe3ee09.js.map",
+    "main.bb1e88d6.js.map": "/personalportfolio2022/static/js/main.bb1e88d6.js.map",
     "787.d5360f6f.chunk.js.map": "/personalportfolio2022/static/js/787.d5360f6f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c04350b.css",
-    "static/js/main.dbe3ee09.js"
+    "static/js/main.bb1e88d6.js"
   ]
 }
