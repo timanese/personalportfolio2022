@@ -2,7 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { DiReact, DiAngularSimple, DiJavascript1, DiPython, DiJava } from "react-icons/di";
+import {
+  DiReact,
+  DiAngularSimple,
+  DiJavascript1,
+  DiPython,
+  DiJava,
+} from "react-icons/di";
 import { SiCplusplus, SiFirebase } from "react-icons/si";
 import colorSharp from "../assets/color-sharp2.png";
 
@@ -36,9 +42,7 @@ export const Skills = () => {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>
-                Skills I have utilized and learned throughout the years.
-              </p>
+              <p>Skills I have utilized and learned throughout the years.</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
