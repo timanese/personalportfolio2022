@@ -19,7 +19,7 @@ function App() {
       <Experience />
       <Projects />
       <WhatsNew />
-      <GithubCal />
+      {/* <GithubCal /> */}
       <Contact />
       <Footer />
     </div>
