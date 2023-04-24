@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo3 from "../assets/logo3.svg";
+// import logo3 from "../assets/logo3.svg";
 import { UilLinkedin } from "@iconscout/react-unicons";
 import { UilGithub } from "@iconscout/react-unicons";
 import { UilFile } from "@iconscout/react-unicons";
@@ -35,7 +35,8 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo3} alt="Logo" />
+          {/* <img src={logo3} alt="Logo" /> */}
+          <h2 className="my-name">Tim Yang.</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -94,17 +95,37 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/tim-yang-49258b18b/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/tim-yang-49258b18b/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <UilLinkedin className={"navbar-logo"} />
               </a>
-              <a href="https://github.com/timanese" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/timanese"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <UilGithub className={"navbar-logo"} />
               </a>
-              <a href="https://drive.google.com/file/d/1F_wGS1DVr49e9FYTZIRqsU2bAt0IEXuz/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a
+                href="https://drive.google.com/file/d/1F_wGS1DVr49e9FYTZIRqsU2bAt0IEXuz/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <UilFile className={"navbar-logo"} />
               </a>
             </div>
-            <button className="vvd" onClick={() => window.open('https://www.linkedin.com/in/tim-yang-49258b18b/', '_blank')}>
+            <button
+              className="vvd"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/tim-yang-49258b18b/",
+                  "_blank"
+                )
+              }
+            >
               {" "}
               <span>Let's Connect</span>
             </button>

@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/logo3.svg";
+// import logo from "../assets/logo3.svg";
 
 export const Footer = () => {
   return (
@@ -7,7 +7,8 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={18} sm={6}>
-            <img src={logo} alt="Tim Yang Logo" />
+            {/* <img src={logo} alt="Tim Yang Logo" /> */}
+            <h2 className="my-name">Tim Yang.</h2>
           </Col>
           <Col size={18} sm={6} className="text-center text-sm-end">
             <p>“He conquers who endures.” – Persius</p>

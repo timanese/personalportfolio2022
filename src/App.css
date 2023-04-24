@@ -243,6 +243,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+.my-name {
+  color: #b8b8b8;
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
