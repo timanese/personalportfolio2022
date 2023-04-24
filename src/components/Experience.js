@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Timeline } from "./Timeline";
 import TrackVisibility from "react-on-screen";
 import "animate.css";

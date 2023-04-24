@@ -8,7 +8,6 @@ import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { WhatsNew } from "./components/WhatsNew";
-import { GithubCal } from "./components/GithubCal";
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (

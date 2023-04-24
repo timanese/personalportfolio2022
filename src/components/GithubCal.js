@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
+import { Container } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import { FaGithubAlt } from "react-icons/fa";
 import colorSharp from "../assets/color-sharp2.png";
