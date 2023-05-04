@@ -8,6 +8,7 @@ import myshImg from "../assets/mysh-project.png";
 import dynastygym from "../assets/dynastygym-project.png";
 import TrackVisibility from "react-on-screen";
 import algoquant from "../assets/algoquant.png";
+import legalink from "../assets/LegalLink.png";
 import "animate.css";
 
 export const Projects = () => {
@@ -50,6 +51,14 @@ export const Projects = () => {
       imgUrl: algoquant,
       githubUrl: "https://github.com/AlgoQuantSD",
       websiteUrl: "https://algoquant.app/",
+    },
+    {
+      title: "LegalLink",
+      description:
+        "LegalLink is a web app for managing legal cases and docs. AI grades cases and flags issues, making the legal system more accessible and efficient. 2nd Place at Morgan and Morgan 2023 Hackathon",
+      imgUrl: legalink,
+      githubUrl: "https://github.com/timanese/LegalLink",
+      websiteUrl: "https://devpost.com/software/legallink",
     },
   ];
   return (
