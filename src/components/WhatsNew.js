@@ -22,7 +22,7 @@ export const WhatsNew = () => {
             </TrackVisibility>
             <div className="container">
               <iframe
-                src="https://www.linkedin.com/embed/feed/update/urn:li:share:6980515631137701888"
+                src="https://www.linkedin.com/embed/feed/update/urn:li:share:7059173996851843072"
                 height="701"
                 width="75%"
                 frameborder="0"
